@@ -9,7 +9,7 @@ const ContactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData();
-    formData.append("access_key", "your-web3forms-access-key");
+    formData.append("access_key", "38957aa0-5bd8-4f82-962f-0f29616e2064");
     formData.append("email", email);
     formData.append("subscribe", subscribe ? "Yes" : "No");
 
