@@ -21,7 +21,7 @@ export default function Home() {
       paragraphText="Explore our latest products with exclusive offers!"
       // heading="Shop Now" paragraph={false}
     />
-    <BestSellingSection/>
+    {/* <BestSellingSection/> */}
     <ScrollEffect/>
     <Spascsection
       heading="SHOP BY CATEGORY" paragraph={false}

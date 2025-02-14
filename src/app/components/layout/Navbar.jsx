@@ -5,7 +5,7 @@ import AuthBT from "../ui/Auth-BT";
 
 const Navbar = () => {
   return (
-    <main className="bg-white p-2 overflow-hidden " >
+    <main className="bg-white p-2 overflow-hidden" >
         <nav className="flex border border-black rounded-lg justify-between items-center px-6 py-4 bg-white shadow-md">
       {/* Left - Logo */}
       <div className="text-2xl font-bold text-green-700">
