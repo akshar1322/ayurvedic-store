@@ -1,3 +1,4 @@
+"use client";
 const ProductCard = ({ image, name, price, onAddToCart }) => {
     return (
       <div className="border border-[#8B5D48] bg-white p-4 flex flex-col items-center">

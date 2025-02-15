@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const banner = () => {
   return (
@@ -32,7 +33,9 @@ const banner = () => {
             transition={{ duration: 0.3 }}
             className="flex mt-3 mb-4 px-5 left-2 py-2 border border-white text-white font-medium  transition-all"
           >
-            Shop Now
+            <Link href="/product">
+            Shop Now →
+          </Link>
           </motion.button>
         </div>
       </div>
