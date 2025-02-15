@@ -11,14 +11,14 @@ const AboutUs = () => {
                 <a href="/" className="hover:underline">Home</a> &gt;
                 <a href="/about" className="hover:underline p-1">AboutUs</a>
               </nav>
-        
+
         <h1 className="text-3xl font-bold text-center mb-8">About Us</h1>
 
         {/* Mission Section */}
         <div className="bg-[#8B5D48] text-white  p-6 rounded-lg shadow-md mb-8">
           <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
           <p className="text-white">
-            At [Your Brand Name], our mission is to provide high-quality skincare products that nourish and rejuvenate your skin. We believe in the power of natural ingredients and cutting-edge science to help you achieve a radiant, healthy complexion.
+            At Ayurveda: BYA, our mission is to provide high-quality skincare products that nourish and rejuvenate your skin. We believe in the power of natural ingredients and cutting-edge science to help you achieve a radiant, healthy complexion.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ const AboutUs = () => {
         <div className="bg-[#8B5D48] p-6 rounded-lg shadow-md mb-8">
           <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
           <p className="text-white">
-            Founded in [Year], [Your Brand Name] started as a small family-owned business with a passion for skincare. Over the years, we've grown into a trusted brand, offering a wide range of products designed to meet the unique needs of every skin type.
+            Founded in 2025,Ayurveda: started as a small family-owned business with a passion for skincare. Over the years, we've grown into a trusted brand, offering a wide range of products designed to meet the unique needs of every skin type.
           </p>
         </div>
 
