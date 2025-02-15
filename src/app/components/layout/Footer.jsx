@@ -24,20 +24,20 @@ const Footer = () => {
       {/* Navigation Links */}
       <div className="border border-white rounded-md ml-3 mr-3 p-4 flex justify-center space-x-6 text-lg font-medium my-4">
         <Link href="/home" className="hover:underline">Home</Link>
-        <Link href="/shop" className="hover:underline">Shop</Link>
+        <Link href="/product" className="hover:underline">Shop</Link>
         <Link href="/about" className="hover:underline">About</Link>
         <Link href="/contact" className="hover:underline">Contact</Link>
       </div>
 
       {/* Legal & Policies Links */}
-      <div className="border border-white rounded-md p-4 ml-3 mr-3 flex flex-wrap justify-center space-x-6 text-sm my-4">
+      {/* <div className="border border-white rounded-md p-4 ml-3 mr-3 flex flex-wrap justify-center space-x-6 text-sm my-4">
         <Link href="/faq" className="hover:underline">FAQ</Link>
         <Link href="/terms" className="hover:underline">Terms & Conditions</Link>
         <Link href="/privacy" className="hover:underline">Privacy Policy</Link>
         <Link href="/refund" className="hover:underline">Refund Policy</Link>
         <Link href="/shipping" className="hover:underline">Shipping Policy</Link>
         <Link href="/accessibility" className="hover:underline">Accessibility Statement</Link>
-      </div>
+      </div> */}
     </footer>
     {/* Footer Bottom - Version & Credit */}
     <div className=" flex justify-between  text-base mt-6">

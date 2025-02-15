@@ -29,7 +29,7 @@ const Login = () => {
 
     if (user) {
       if (user.role === 'client') {
-        router.push('/product'); // Redirect to product page for client
+        router.push('/'); // Redirect to product page for client
       } else if (user.role === 'admin') {
         router.push('/dashboard'); // Redirect to dashboard for admin
       }

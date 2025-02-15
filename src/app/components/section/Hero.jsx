@@ -19,7 +19,7 @@ const Hero = () => {
             </p>
           </div>
           {/* Shop Now Button */}
-          <Link href="/shop" className="text-[#8B5D48] italic mt-4 self-end hover:underline">
+          <Link href="/product" className="text-[#8B5D48] italic mt-4 self-end hover:underline">
             Shop Now →
           </Link>
         </div>
